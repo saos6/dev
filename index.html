@@ -1,14 +1,393 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>git github</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta property='og:type' content='website'>
+  <meta property='og:title' content='ITエンジニア SAOS ポートフォリオ'>
+  <meta property='og:url' content='URLが入る'>
+  <meta property='og:description' content='SAOSのポートフォリオサイトです。'>
+  <meta property="og:image" content="img/ogp.png">
+  <meta name="description" content="SAOSのポートフォリオサイトです" />
+  <title>SAOS</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
+  <link href="css/ress.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+  <link rel="shortcut icon" href="img/favicon.ico" />
+  <link rel=”canonical” href=”URLが入る” />
 </head>
+
 <body>
-  <h1>Hello git github world!</h1>
-  <p>会社PCで更新 3/19 15:57</p>
-  <p>自宅PCで更新 3/19 16:03</p>
+  <div class="wrapper">
+
+    <!-- header -->
+    <header class="header ">
+      <div class="container">
+        <h1 class="header-logo">
+          <a href=".">SAOS</a>
+        </h1>
+        <nav class="gnav">
+          <ul class="gnav-list">
+            <li class="gnav-item"><a href="#works">WORKS</a></li>
+            <li class="gnav-item"><a href="#skill">SKILL</a></li>
+            <!-- <li class="gnav-item"><a href="#certification">CERTIFICATION</a></li>
+            <li class="gnav-item"><a href="#career">CAREER</a></li>
+            <li class="gnav-item"><a href="#etc">ETC</a></li> -->
+            <li class="gnav-item"><a href="#about">ABOUT</a></li>
+            <li class="gnav-item"><a href="#contact">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- /header -->
+
+    <main class="content">
+
+      <!-- mv -->
+      <div class="mv">
+        <div class="mv-container">
+          <p class="mv-title">SAOS</p>
+          <p class="mv-subtitle">PORTFOLIO</p>
+          <p class="mv-text">
+            心から満足できる<br class="sp-only">ITサービスご提供致します。<br>
+            業務系システムの構築に関する事で<br class="sp-only">ご提案やシステム設計おまかせください。<br>
+          </p>
+        </div>
+      </div>
+      <!-- /mv -->
+
+      <!-- works -->
+      <section class="works section" id="works">
+        <div class="container">
+          <h2 class="title">WORKS</h2>
+          <div class="works-list">
+            <a class="works-item" href="https://updnote.xii.jp/">
+              <div class="works-img"><img src="img/works-updnote.com.jpg" alt="" /></div>
+              <p class="works-name">ホームページ</p>
+              <p class="works-info">WordPressを使ってホームページ（ブログサイト）の構築と運営</p>
+            </a>
+            <a class="works-item" href="https://eccube.updnote.com/">
+              <div class="works-img"><img src="img/works-ec-cube.jpg" alt="" /></div>
+              <p class="works-name">EC CUBE</p>
+              <p class="works-info">EC CUBEのインストールと通販サイトの構築、運営</p>
+            </a>
+            <a class="works-item" href="https://wordpress.com/ja/">
+              <div class="works-img"><img src="img/works-wordpress.jpg" alt="" /></div>
+              <p class="works-name">WordPress</p>
+              <p class="works-info">レンタルサーバーやクラウドへWordPressのインストール構築と運営</p>
+            </a>
+            <a class="works-item" href="https://github.com/salescube/SalesCube">
+              <div class="works-img"><img src="img/works-sales.jpg" alt="" /></div>
+              <p class="works-name">販売管理システム</p>
+              <p class="works-info">クライアント・サーバー型またはWEB型の販売管理システムの構築、導入</p>
+            </a>
+            <a class="works-item" href="https://saos-dev1.eek.jp/welcome/">
+              <div class="works-img"><img src="img/works-laravel.jpg" alt="" /></div>
+              <p class="works-name">Laravel - PHP Framework</p>
+              <p class="works-info">さまざまなオープンソースを使ったシステム構築、導入、支援</p>
+            </a>
+            <a class="works-item" href="">
+              <div class="works-img"><img src="img/works-dev.jpg" alt="" /></div>
+              <p class="works-name">VBA系、Java - Spring FrameWork、Oracle、PostgreSQL、MariaDB等</p>
+              <p class="works-info">その他、主にWEB型の業務系システムの構築、導入</p>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- /works -->
+
+      <!-- skill -->
+      <section class="skill section" id="skill">
+        <div class="container">
+          <h2 class="title">SKILL</h2>
+          <div class="skill-list">
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/icon_skill.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">VBA系</h3>
+                <p class="skill-text">
+                  経験（豊富、20年以上）<br>
+                  VB6、ACCESS、EXCELなどVBA言語を使った開発</p>
+              </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/icon_skill.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">Java</h3>
+                <p class="skill-text">
+                  経験（中、20年以上）<br>
+                  Spring FrameWorkを使ったWEB系システム開発</p>
+              </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/icon_skill.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">PHP</h3>
+                <p class="skill-text">
+                  経験（中、3年以上）<br>
+                  PHPを使った独自ショッピングサイト構築、導入、運営</p>
+              </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/icon_skill.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">ストアドプロシジャー</h3>
+                <p class="skill-text">
+                  経験（中、10年以上）<br>
+                  Oracle（PL/SQL）やPostgreSQLなどバッチ処理やデータ移行処理の開発</p>
+              </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/icon_skill.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">PhotoShop</h3>
+                <p class="skill-text">
+                  経験（中、3年以上）<br>
+                  ショッピングサイト画像の編集など</p>
+              </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/icon_skill.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">WordPress</h3>
+                <p class="skill-text">
+                  経験（小、1年以上）<br>
+                  ブログサイトの構築</p>
+              </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/icon_skill.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">IDEツール</h3>
+                <p class="skill-text">
+                  経験（中、5年以上）<br>
+                  Eclipseが多い。その他、VisualStudio、VS CODE</p>
+              </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/icon_skill.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">EC CUBE</h3>
+                <p class="skill-text">
+                  経験（中、5年以上）<br>
+                  EC CUBEのインストール、ショッピングサイトの構築、導入</p>
+              </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/icon_skill.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">データベース</h3>
+                <p class="skill-text">
+                  経験（豊富、特にOracleが20年以上）<br>
+                  Oracle経験長い。Oracle7時代～、チューニングなど実績<br>
+                  その他、PostgreSQL、MySQL(MariaDB)、MS SQLServer</p>
+              </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/icon_skill.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">OS（サーバー）</h3>
+                <p class="skill-text">
+                  経験（豊富、サーバー構築も20年以上）<br>
+                  Windowsが長い（NT時代～）<br>
+                  Linux、UNIXも経験あり（経験＝中。viエディタ可）</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /skill -->
+
+      <!-- certification -->
+      <section class="skill section" id="certification">
+        <div class="container">
+          <h2 class="title">CERTIFICATION</h2>
+          <div class="skill-list">
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/icon_certification.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">応用情報技術者試験（AP)</h3>
+                <p class="skill-text">
+                  国家試験であるIPA情報処理技術者試験の一区分。情報処理技術者試験制度のスキルレベル3（スキルレベルは1 - 4）に相当</p>
+              </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/icon_certification.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">情報セキュリティマネジメント試験（SG）</h3>
+                <p class="skill-text">
+                  国家試験であるIPA情報処理技術者試験の一区分。情報セキュリティ部門の基礎的知識を問う能力認定試験と位置づけ</p>
+              </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/icon_certification.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">オラクルマスター (ORACLE MASTER) silver , gold , platinum</h3>
+                <p class="skill-text">
+                  日本オラクル社が定めるデータベース認定試験</p>
+              </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/icon_certification.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">PMS（Project Management Specialist）</h3>
+                <p class="skill-text">
+                  P2M（ピー・トゥ・エム）は統合的なプログラムマネジメントとプロジェクトマネジメントの標準体系、P2Mではプロジェクト／プログラムマネジメント人材に関して、知識及び経験等に関する試験による資格認定</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /certification -->
+
+      <!-- career -->
+      <section class="skill section" id="career">
+        <div class="container">
+          <h2 class="title">CAREER</h2>
+          <div class="skill-list">
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/icon_career.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">1993年～ 販売管理システム</h3>
+                <p class="skill-text">
+                  パッケージ・スクラッチ開発と導入。民間卸売、バイク、OA機器、石油関連など。クライアント・サーバー型、ハンディターミナル。<br>
+                  工程は要件定義、設計、製造、運用。VB、Oracle、PL/SQL、C、Java。オンプレサーバー構築、ターミナルサーバー<br>
+                </p>
+              </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/icon_career.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">2005年～ 自治体向け業務系システム</h3>
+                <p class="skill-text">
+                  パッケージ・スクラッチ開発と導入。自治体向けのWEB型の業務系の独自システムがほとんど。<br>
+                  工程は要件定義、設計、製造、運用。Java、PostgreSQLやMySQL、VB、Oracle。オンプレ・仮想サーバー構築、ターミナルサーバー<br>
+              </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/icon_career.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">2015年～ WEB型の販売管理システム</h3>
+                <p class="skill-text">
+                  オープンソース販売管理パッケージ開発と導入。民間、スマホアプリ（販売）<br>
+                  工程はPM、要件定義、導入。Java、PostgreSQLやMySQL（MariaDB）が主<br>
+              </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/icon_career.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">2016年～ ニアショア開発</h3>
+                <p class="skill-text">
+                  スクラッチでニアショア開発と導入まで。コンビニ向け、WEB型<br>
+                  工程はPM、要件定義、基本設計、導入。Java、OracleやPostgreSQL、MySQL（MariaDB）が主<br>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /career -->
+
+            
+      <!-- skill etc-->
+      <section class="skill section" id="skill etc">
+        <div class="container">
+          <h2 class="title">ETC</h2>
+          <div class="skill-list">
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/icon_skill_etc.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">強化したい、または勉強中の分野</h3>
+                <p class="skill-text">
+                  ポートフォリオ作成中（HTML、CSSの勉強中）<br>
+                  WEBフロント系（HTML、CSS、javascriptの勉強中）<br>
+                  PHP（Laravelフレームワーク）の勉強中<br>
+                  WEBデザイン系<br>
+                  画像編集<br>
+                  ドットインストールで勉強中</p>
+              </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/icon_skill_etc.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">趣味</h3>
+                <p class="skill-text">
+                  筋力トレーニング<br>
+                  読書<br>
+                  ルアー釣り<br>
+                  沖縄の野菜や果物のこと<br>
+                  昔はサーフィン、バスケ</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /skill etc -->
+
+      <!-- about -->
+      <section class="about section" id="about">
+        <div class="container">
+          <h2 class="title">ABOUT</h2>
+          <div class="profile">
+            <p class="profile-img">
+              <img src="img/profile.jpg" alt="">
+            </p>
+            <div class="profile-body">
+              <p>
+                IT系の会社に勤務して約30年、当時はクライアント・サーバー型のシステム形態がほとんどで、VBやACCESSといったVBA系の開発言語・ツールがほとんどであった。
+              </p>
+              <p>
+                データベースはoracleが一番長い、oracle7時代～チューニングなども経験、DB言語としてストアドプロシジャー（PL/SQL）でのバックエンド側の更新系や、データ移行処理の開発も多く経験した。
+              </p>
+              <p>
+                業務系のシステム開発の経験が長い、今はWEB型の業務系システム開発の導入がほとんどだが、担当する工程は要件定義、基本設計で開発はあまり経験していない。
+              </p>
+              <p>
+                データベース周りが得意、SQL文やビュー作成、ストアドプロシジャー、トリガーなどデータベース開発が得意。
+              </p>
+              <p>
+                フロント系（HTMLやCSS、javascript）は経験は少ないが強化していきたい。通常の開発で使用する程度なら問題ない。
+              </p>
+              <p>
+                今は管理や営業的な事がほとんどであるが、今後もエンジニアとして長くやっていきたい、エンジニアとして作品を作りながら、様々な提案もやっていきたい。
+              </p>
+              <p>
+                野菜や果物の卸の経験あり、ネット通販のサイトを立ち上げて約10年運営の経験もある。オープンソースのEC-CUBEを使い構築した経験もある。PHPは少々経験あり。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /about -->
+
+      <!-- contact -->
+      <section class="contact section" id="contact">
+        <div class="container">
+          <h2 class="title">CONTACT</h2>
+          <p class="lead">
+            お問い合わせは、<br class="sp-only">以下よりお願いいたします。
+          </p>
+          <div class="contact-list">
+            <a class="contact-item" href="https://updnote.xii.jp/index.php/805-2/" target="_blank" rel="noopener">お問合せフォーム</a>
+            <!-- <span class="contact-item">xxxxxx@gmail.com</span> -->
+          </div>
+        </div>
+      </section>
+      <!-- /contact -->
+      <div class="page-top" id="js-page-top">
+        <span class="material-icons-outlined">expand_less</span>
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="copyright">&copy;SAOS</div>
+    </footer>
+    <!-- /footer -->
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script type='text/javascript' src="js/script.js"></script>
 </body>
 </html>

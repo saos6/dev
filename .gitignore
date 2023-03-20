@@ -1,0 +1,8 @@
+laravel/bunbougu/node_modules
+laravel/bunbougu/vendor
+laravel/bunbougu/.*
+laravel/bunbougu/*.log
+laravel/bunbougu/*.sqlite
+laravel/bunbougu/storage
+laravel/bunbougu/config
+laravel/bunbougu/*.json
