@@ -14,5 +14,7 @@ Route::group([
     $router->get('/', 'HomeController@index')->name('home');
     $router->resource('users', UserController::class);
     $router->resource('blogs', BlogController::class);
+    $router->resource('authors', AuthorController::class);
+    $router->resource('books', BookController::class);
 
 });
