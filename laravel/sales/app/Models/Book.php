@@ -18,6 +18,13 @@ class Book extends Model
     ];
 
     public function author() {
-      return $this->belongsToMany(Author::class,'author_id');
+      return $this->belongsTo(Author::class);
+      // return $this->belongsToMany(Author::class,'author_id');
+      // return $this->hasOne(Author::class);
+      // return $this->belongsToMany(Author::class, 'books')->using(BookAuthor::class);
+    }
+    public function authors()
+    {
+        return $this->belongsToMany(Author::class);
     }
 }

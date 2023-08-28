@@ -63,9 +63,9 @@ class AuthorController extends AdminController
     {
         $form = new Form(new Author());
 
-        // $form->text('name', __('Name'));
-
-        // 通常の使用
+        // $form->text('first_name', __('名前'));
+        // $form->text('last_name', __('氏名'));
+        // // 通常モード
         // $form->tab('氏名',function($form) {
         //     $form->hidden('id');
         //     $form->text('first_name', '名前');
@@ -79,8 +79,7 @@ class AuthorController extends AdminController
         //         $nestedForm->currency('price','価格');
         //     });
         // });
-
-        // タブモード
+        // // タブモード
         // $form->tab('氏名',function($form) {
         //     $form->hidden('id');
         //     $form->text('first_name', '名前');
@@ -94,7 +93,6 @@ class AuthorController extends AdminController
         //         $nestedForm->currency('price','価格');
         //     })->useTab();
         // });
-
         // デーブルモード
         $form->tab('氏名',function($form) {
             $form->hidden('id');

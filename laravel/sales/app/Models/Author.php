@@ -15,5 +15,9 @@ class Author extends Model
     ];
     public function books() {
       return $this->hasMany(Book::class,'author_id')->orderBy('id','asc');
-  }
+    }
+    public function book()
+    {
+        return $this->hasOne(book::class);
+    }
 }
