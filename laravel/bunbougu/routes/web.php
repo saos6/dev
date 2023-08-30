@@ -43,4 +43,9 @@ Route::get('/juchus/edit/{juchu}', 'App\Http\Controllers\JuchuController@edit')-
 Route::put('/juchus/edit/{juchu}','App\Http\Controllers\JuchuController@update')->name('juchu.update')->middleware('auth');
 Route::delete('/juchus/{juchu}','App\Http\Controllers\JuchuController@destroy')->name('juchu.destroy')->middleware('auth');
 
+// Route::get('/output/pdf', [OutputController::class, 'outputPdf']);
+// Route::get('/sample', [SampleController::class, 'pdf_sample']);
+Route::get('/output/pdf', 'App\Http\Controllers\OutputController@outputPdf')->name('OutputController.outputPdf');
+Route::get('/pdfsample', 'App\Http\Controllers\SampleController@pdf_sample')->name('SampleController.pdf_sample');
+
 require __DIR__.'/auth.php';

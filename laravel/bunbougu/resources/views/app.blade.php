@@ -25,7 +25,8 @@
         <ul style="display: flex;">
         <li style="margin-right: 30px;"><a href="{{ url('/dashboard') }}">TOP</a></li>
         <li style="margin-right: 30px;"><a href="{{ url('/juchus') }}">受注入力</a></li>
-        <li><a href="{{ url('/bunbougus') }}">文房具マスター</a></li>
+        <li style="margin-right: 30px;"><a href="{{ url('/bunbougus') }}">文房具マスター</a></li>
+        <li><a href="{{ url('/pdfsample') }}">PDFサンプル</a></li>
         </ul>
       </div>
 

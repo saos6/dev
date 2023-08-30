@@ -63,7 +63,13 @@ class BookController extends AdminController
         $grid->column('price', __('Price'));
         $grid->column('created_at', __('Created at'));
         $grid->column('updated_at', __('Updated at'));
-
+        //「操作」列にボタンの追加
+        $grid->actions(function ($actions) {
+            //form等のURLを指定する。
+            //   $actions->prepend('<a href="./pdfsample'.$actions->getKey().'/edit"><button type="button" class="btn btn-primary btn-xs">PDF</button></a></br>');
+              $actions->prepend('<a href="./pdfsample"><button type="button" class="btn btn-primary btn-xs">PDF</button></a></br>');
+          });
+  
         return $grid;
     }
 
